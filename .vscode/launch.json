@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32 Debug (OpenOCD)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "executable": "${workspaceFolder}/build/Debug/STM32F407ZGT6.elf",
+            "device": "STM32F407ZG",
+            "configFiles": [
+                "interface/stlink-v2.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            "gdbPath": "arm-none-eabi-gdb.exe",
+            "serverpath": "openocd.exe",
+            "cwd": "${workspaceFolder}",
+            "runToEntryPoint": "main"
+        }
+    ]
+}

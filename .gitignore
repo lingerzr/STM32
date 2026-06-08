@@ -1,15 +1,6 @@
-build
 mx.scratch
-!.settings
 
-# ========================
-# 1. IDE 配置文件 (跨平台防打架)
-# ========================
-.vscode/
-
-# ========================
-# 2. 编译生成的输出文件 (体积大且易变)
-# ========================
+# Build outputs
 build/
 Debug/
 Release/
@@ -21,9 +12,7 @@ Release/
 *.map
 *.lst
 
-# ========================
-# 3. 操作系统产生的隐藏文件
-# ========================
+# OS files
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -32,9 +21,7 @@ Icon
 Thumbs.db
 desktop.ini
 
-# ========================
-# 4. 其他 IDE 特有文件 (可选忽略)
-# ========================
+# Optional IDE/toolchain files
 MDK-ARM/
 *.uvoptx
 *.uvprojx

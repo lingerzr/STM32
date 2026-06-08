@@ -59,8 +59,6 @@ extern TIM_HandleTypeDef htim5;
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define My_LED_Pin GPIO_PIN_9
-#define My_LED_GPIO_Port GPIOF
 
 /* USER CODE BEGIN Private defines */
 
